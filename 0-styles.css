@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F7F7F7;
+    background-image: url('0-sprite.png');
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-position-y: -50%;
+    background-position-x: center;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+ul {
+    
+    width: 1000px;
+    height: 500px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    border: 1px solid grey;
+    width: 26%;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    border-radius: 25px;
+    padding-top: 25px;
+}
+
+li:first-child {
+    margin-right: 3%;
+}
+
+li:nth-child(2) {
+    margin-right: 3%;
+}
